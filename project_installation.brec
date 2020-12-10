@@ -1,0 +1,24 @@
+Installation instructions for Waybrec Parser
+
+    initial set-up \ Only for projects with buildable software.
+        1+ Ensure the following projects are installed.
+            • Makeshift
+                : see http://reluk.ca/project/building/Makeshift/
+        2+ Install the files of the present project.
+            >+ cd <command-directory>/
+                / The command directory is where project installations are accessible by their
+                  proper paths.  The present project, for example, will shortly be accessible
+                  at `wayic/Waybrec/parser`.
+                    : see `^^command directory$` @ http://reluk.ca/project/lexicon.brec
+            >+ git clone http://reluk.ca/var/repo/git/Waybrec.parser.git wayic/Waybrec/parser
+        + Build the software.
+            : see http://reluk.ca/project/building/Makeshift/bin/build.brec
+            >+ build wayic/Waybrec/parser class-files
+
+    Web publication
+        • Breccian files
+            : join @ http://reluk.ca/project/Breccia/project_installation.brec
+
+
+
+                                                         \ Copyright © 2020  Michael Allan.  Licence MIT.
