@@ -3,6 +3,8 @@ package wayic.Waybrec.parser;
 import Breccia.parser.*;
 
 
+/** A reusable translator of Waybrec to X-Waybrec.
+  */
 public class WaybrecXCursor extends BrecciaXCursor {
 
 

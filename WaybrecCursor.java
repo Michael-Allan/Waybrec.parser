@@ -4,7 +4,7 @@ import Breccia.parser.BrecciaCursor;
 import java.nio.file.Path;
 
 
-/** A cursor-based pull parser of Waybrec.
+/** A reusable, buffered cursor over Waybrec.
   */
 public class WaybrecCursor extends BrecciaCursor {}
 
