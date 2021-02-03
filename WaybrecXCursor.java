@@ -1,6 +1,6 @@
 package wayic.Waybrec.parser;
 
-import Breccia.parser.*;
+import Breccia.parser.BrecciaXCursor;
 
 
 /** A reusable translator of Waybrec to X-Waybrec.
@@ -8,8 +8,14 @@ import Breccia.parser.*;
 public class WaybrecXCursor extends BrecciaXCursor {
 
 
-    public <S extends BreccianCursor & ReusableCursor> WaybrecXCursor( S sourceCursor ) {
-        super( sourceCursor ); }}
+    /** @see #sourceCursor()
+      */
+    public WaybrecXCursor( WaybrecCursor sourceCursor ) { super( sourceCursor ); }
 
 
-                                                        // Copyright © 2020  Michael Allan.  Licence MIT.
+
+    public @Override WaybrecCursor sourceCursor() { return (WaybrecCursor)super.sourceCursor(); }}
+
+
+
+                                                   // Copyright © 2020-2021  Michael Allan.  Licence MIT.

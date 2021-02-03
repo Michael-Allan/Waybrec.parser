@@ -1,12 +1,12 @@
 package wayic.Waybrec.parser;
 
 import Breccia.parser.BrecciaCursor;
-import java.nio.file.Path;
 
 
-/** A reusable, buffered cursor over Waybrec.
+/** A pull parser of Waybreccian markup that operates as a unidirectional cursor over a series
+  * of discrete parse states.
   */
 public class WaybrecCursor extends BrecciaCursor {}
 
 
-                                                        // Copyright © 2020  Michael Allan.  Licence MIT.
+                                                   // Copyright © 2020-2021  Michael Allan.  Licence MIT.
