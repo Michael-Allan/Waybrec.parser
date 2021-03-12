@@ -1,9 +1,9 @@
 package wayic.Waybrec.parser;
 
-import Breccia.parser.BrecciaCursor;
+import Breccia.parser.plain.BrecciaCursor;
 
 
-/** A pull parser of Waybreccian markup that operates as a unidirectional cursor over a series
+/** A reusable, pull parser of Waybreccian files that operates as a unidirectional cursor over a series
   * of discrete parse states.
   */
 public class WaybrecCursor extends BrecciaCursor {}

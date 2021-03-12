@@ -1,11 +1,11 @@
 Installation instructions for Waybrec Parser
 
-    initial set-up \ Only for projects with buildable software.
+    initial set-up
         1+ Ensure the following projects are installed.
             • Makeshift
                 : see http://reluk.ca/project/building/Makeshift/
-            • Breccia Parser
-                : see http://reluk.ca/project/Breccia/parser/
+            • The parser of plain Breccia
+                : see http://reluk.ca/project/Breccia/parser/plain/
         2+ Install the files of the present project.
             >+ cd <command-directory>/
                 / The command directory is where project installations are accessible by their
