@@ -3,8 +3,7 @@ package wayic.Waybrec.parser;
 import Breccia.parser.plain.BrecciaCursor;
 
 
-/** A reusable, pull parser of Waybreccian files that operates as a unidirectional cursor over a series
-  * of discrete parse states.
+/** A reusable, pull parser of Waybrec as reflected through a cursor.
   */
 public class WaybrecCursor extends BrecciaCursor {}
 
