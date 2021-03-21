@@ -1,6 +1,7 @@
 package wayic.Waybrec.parser;
 
 import Breccia.parser.plain.BrecciaCursor;
+import Breccia.parser.plain.CommandPoint_;
 
 
 /** A reusable, pull parser of Waybrec as reflected through a cursor.
@@ -11,9 +12,9 @@ public class WaybrecCursor extends BrecciaCursor {
     public WaybrecCursor() {
         final String[] commandPointKeywords = { // Those specific to Waybrec, in lexicographic order.
             "thoroughfractum" };
-        final Runnable[] commandPointCommitters = { // Each at the same index as its keyword above.
-            basicThoroughfractumDesignator::commit }; // ‘thoroughfractum’
-        addCommandPoints( commandPointKeywords, commandPointCommitters ); }
+        final CommandPoint_<?>[] commandPoints = { // Each at the same index as its keyword above.
+            basicThoroughfractumDesignator }; // ‘thoroughfractum’
+        addCommandPoints( commandPointKeywords, commandPoints ); }
 
 
 
