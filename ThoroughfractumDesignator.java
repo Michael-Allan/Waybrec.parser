@@ -1,12 +1,12 @@
 package wayic.Waybrec.parser;
 
-import Breccia.parser.CommandPoint;
-import Breccia.parser.DataReflector;
+import Breccia.parser.*;
 
 
 /** A thoroughfractum designator in Breccia.
-  */
-public @DataReflector interface ThoroughfractumDesignator extends CommandPoint {
+  *
+  */   @TagName("ThoroughfractumDesignator") @DataReflector
+public interface ThoroughfractumDesignator extends CommandPoint {
 
 
    // ━━━  M a r k u p  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
