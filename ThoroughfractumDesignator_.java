@@ -1,11 +1,12 @@
 package wayic.Waybrec.parser;
 
 import Breccia.parser.plain.CommandPoint_;
+import Breccia.parser.plain.SimpleCommandPoint;
 
 
 /** @param <C> The type of cursor.
   */
-class ThoroughfractumDesignator_ extends CommandPoint_<WaybrecCursor>
+class ThoroughfractumDesignator_ extends SimpleCommandPoint<WaybrecCursor>
   implements ThoroughfractumDesignator {
 
 
