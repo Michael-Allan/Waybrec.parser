@@ -28,13 +28,13 @@ public class Typestamp extends Breccia.parser.Typestamp {
 
     /** The typestamp of `ThoroughfractumDesignator.End`.
       */
-    public static final int thoroughfractumDesignatorEnd = 0x0e; // = ↓
+    public static final int thoroughfractumDesignatorEnd = 0x14; // = ↓
 
 
 
     /** The highest of the typestamps defined here.
       */
-    protected static final int WaybrecMaximum            = 0x0e; // = ↑
+    protected static final int WaybrecMaximum            = 0x14; // = ↑
 
 
 
