@@ -10,6 +10,7 @@ public class WaybrecCursor extends BrecciaCursor {
 
 
     public WaybrecCursor() {
+        resourceIndicantQualifiers.add( "uninterned" );
         final String[] commandPointKeywords = { // Those specific to Waybrec, in lexicographic order.
             "thoroughfractum" };
         final CommandPoint_<?>[] commandPoints = { // Each at the same index as its keyword above.
