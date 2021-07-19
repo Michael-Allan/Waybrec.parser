@@ -17,10 +17,16 @@ Installation instructions for Waybrec Parser
             : see http://reluk.ca/project/building/Makeshift/bin/build.brec
             >+ build wayic/Waybrec/parser class-files
 
+    rebuild script
+        - If you expect to modify the source code of dependencies (direct or indirect),
+          then a rebuild script may be useful.
+            : re `dependencies` see `^^.\+ Ensure the following projects are installed`
+            : re `rebuild script` e.g. http://reluk.ca/project/wayic/Waybrec/parser/build-all
+
     Web publication
         • Breccian files
             : join @ http://reluk.ca/project/Breccia/project_installation.brec
 
 
 
-                                                         \ Copyright © 2020  Michael Allan.  Licence MIT.
+                                                    \ Copyright © 2020-2021  Michael Allan.  Licence MIT.
