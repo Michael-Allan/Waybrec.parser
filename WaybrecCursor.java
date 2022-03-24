@@ -14,7 +14,7 @@ public class WaybrecCursor extends BrecciaCursor {
             "thoroughfractum" };
         final CommandPoint_<?>[] commandPoints = { // Each at the same index as its keyword above.
             basicThoroughfractumDesignator }; // ‘thoroughfractum’
-        addCommandPoints( commandPointKeywords, commandPoints ); }
+        addCommandPointKeywords( commandPointKeywords, commandPoints ); }
 
 
 
