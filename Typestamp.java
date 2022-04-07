@@ -20,6 +20,7 @@ public class Typestamp extends Breccia.parser.Typestamp {
     /** The typestamp of `ThoroughfractumDesignator`.
       */
     public static final int thoroughfractumDesignator    = -0x01; // = ↑
+    static { assert thoroughfractumDesignator/*last of the fractal starts*/ == BrecciaMinimum - 1; }
 
 
 
@@ -28,20 +29,15 @@ public class Typestamp extends Breccia.parser.Typestamp {
 
     /** The typestamp of `ThoroughfractumDesignator.End`.
       */
-    public static final int thoroughfractumDesignatorEnd = 0x14; // = ↓
+    public static final int thoroughfractumDesignatorEnd = 0x14;   // = ↓
+    static { assert thoroughfractumDesignatorEnd/*first of the fractal ends*/ == BrecciaMaximum + 1; }
 
 
 
     /** The highest of the typestamps defined here.
       */
-    protected static final int WaybrecMaximum            = 0x14; // = ↑
+    protected static final int WaybrecMaximum            = 0x14; } // = ↑
 
 
 
-    static {
-        assert thoroughfractumDesignator + 1 == BrecciaMinimum;
-        assert thoroughfractumDesignatorEnd == BrecciaMaximum + 1; }}
-
-
-
-                                                        // Copyright © 2021  Michael Allan.  Licence MIT.
+                                                   // Copyright © 2021-2022  Michael Allan.  Licence MIT.
