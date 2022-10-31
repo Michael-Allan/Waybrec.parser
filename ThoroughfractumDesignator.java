@@ -9,7 +9,7 @@ import Breccia.parser.*;
 public interface ThoroughfractumDesignator extends CommandPoint {
 
 
-   // ━━━  M a r k u p  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   // ━━━  G r a n u m  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 
     /** The default implementation returns ‘ThoroughfractumDesignator’.
