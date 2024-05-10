@@ -3,7 +3,7 @@ Installation instructions for Waybrec Parser
     initial set-up
         1+ Ensure the following projects are installed.
             • Makeshift
-                : see http://reluk.ca/project/building/Makeshift/
+                : see http://reluk.ca/project/Makeshift/
             • The plain Breccia parser
                 : see http://reluk.ca/project/Breccia/parser/plain/
         2+ Install the files of the present project.
@@ -14,7 +14,7 @@ Installation instructions for Waybrec Parser
                     : see `^*command directory$` @ http://reluk.ca/project/glossary.brec
             >+ git clone http://reluk.ca/var/repo/git/Waybrec.parser.git wayic/Waybrec/parser
         + Build the software.
-            : see http://reluk.ca/project/building/Makeshift/bin/build.brec
+            : see http://reluk.ca/project/Makeshift/bin/build.brec
             >+ build wayic/Waybrec/parser class-files
 
     rebuild script
