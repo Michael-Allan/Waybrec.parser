@@ -9,12 +9,14 @@ import Breccia.parser.plain.CommandPoint_;
 public class WaybrecCursor extends BrecciaCursor {
 
 
-    public WaybrecCursor() {
+    public @SuppressWarnings("this-escape") WaybrecCursor() {
         final String[] commandPointKeywords = { // Those specific to Waybrec, in lexicographic order.
             "thoroughfractum" };
         final CommandPoint_<?>[] commandPoints = { // Each at the same index as its keyword above.
             basicThoroughfractumDesignator }; // ‘thoroughfractum’
-        addCommandPointKeywords( commandPointKeywords, commandPoints ); }
+        addCommandPointKeywords( commandPointKeywords, commandPoints ); } /*
+          Why the compiler would here warn of `this-escape` (suppressed above)
+          is unclear, given that `addCommandPointKeywords` is final. */
 
 
 
@@ -31,6 +33,7 @@ public class WaybrecCursor extends BrecciaCursor {
         private ThoroughfractumDesignator thoroughfractumDesignator;
 
 
+          @SuppressWarnings("this-escape")
         private final ThoroughfractumDesignator_ basicThoroughfractumDesignator // [CIC]
            = new ThoroughfractumDesignator_( this ).endSet();
 
@@ -51,4 +54,4 @@ public class WaybrecCursor extends BrecciaCursor {
 
 
 
-                                                   // Copyright © 2020-2021  Michael Allan.  Licence MIT.
+                                             // Copyright © 2020-2021, 2024  Michael Allan.  Licence MIT.
